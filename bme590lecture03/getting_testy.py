@@ -1,13 +1,15 @@
 import pytest
 def add(a, b):
+    a=input("enter 1st Number")
+    b=input("Enter 2nd Number")
     if (type(a) or type(b)) is (int or float or double):
         print("INVALID INPUT")
-    elif((a or b) < 0):
-        print 0
+    elif((a or b)<0):
+        print(0)
         return 0
     else:
         c = a + b
-        print c
+        print(c)
         return c
 
 
